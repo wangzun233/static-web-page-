@@ -1,0 +1,131 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  min-width: 1900px;
+  max-width: 100%;
+}
+.header{
+  border-bottom:6px solid #111;
+}
+.header .span{
+  margin-right: 20px;
+}
+.header img{
+  padding: 0 0 0 50px;
+  height: 70px;
+}
+.header .span{
+  float: right;
+  margin-top: 50px;
+}
+.main{
+  height: 800px;
+  background-image: url(../img/2.png);
+  		        background-position: center;
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size:100% 100%;
+}
+.main .bgblock{
+  text-align: center;
+  float: right;
+  margin: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 400px;
+  height: 500px;
+}
+.main .tim3{
+  margin: 20px auto;
+  width: 300px;
+  height: 10px;
+  background-color: #111;
+}
+.main .tim a{
+  text-decoration:none;
+  border-bottom:10px solid #666; /* #ccc换成链接的颜色 */
+  display: inline-block;
+  padding-bottom:10px;
+  color: #666
+}
+.main .tim{
+  margin: 20px auto;
+  width: 300px;
+  font-size:30px;
+  padding: 10px;
+}
+/* .main .tim .tim1{
+  color: rgb(51, 174, 201);
+  border-color: rgb(51, 174, 201);
+} */
+.main .tim .tim2{
+  color: rgb(51, 174, 201);
+  border-color: rgb(51, 174, 201);
+}
+.main .tim :hover{
+  color: rgb(51, 174, 201);
+  border-color: rgb(51, 174, 201);
+}
+input{
+  height: 30px;
+    width: 250px;
+    border-radius: 5px;
+
+}
+.form .span2 , .span3{
+  margin: 30px;
+}
+/* .form .span3{
+  margin: 20px;
+} */
+.option input , span{
+  height: 25px;
+  margin:0px 33px 0px -113px;
+}
+.button input{
+  border: 0;
+  background-color: rgb(73, 203, 232);
+  margin-top: 30px;
+  color: #fff;
+}
+.button input:hover{
+  background-color: rgb(53, 168, 194);
+}
+.rainblock{
+  line-height: 2;
+  width: 300px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 50px -50px 0 0;
+  float: right;
+}
+li{
+  list-style-type:none;
+}
+.rainblock ul{
+  margin-top: 100px;
+  text-indent: 1em;
+}
+.rainblock ul h3 {
+    text-indent: 2em;
+}
+
+
+
+
+
+.fotter{
+  font-size: 20px;
+  padding-bottom:80px;
+  border-bottom:6px solid #111;
+}
+.fotter a{
+  color: #111;
+  text-decoration: none;
+  float: right;
+  margin: 25px 300px 0px 30px;
+}
+.fotter :hover{
+  color: rgb(57, 222, 238);
+}
